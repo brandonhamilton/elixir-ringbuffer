@@ -1,0 +1,20 @@
+### Elixir ###
+/_build
+/cover
+/deps
+/doc
+/priv
+/.fetch
+erl_crash.dump
+*.ez
+
+### CMake ###
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
