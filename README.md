@@ -4,8 +4,7 @@
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ringbuffer` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `ringbuffer` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -13,7 +12,14 @@ def deps do
 end
 ```
 
-Documentation is published[https://hexdocs.pm/ringbuffer](https://hexdocs.pm/ringbuffer).
+## Configuration
+
+To disable loading of the NIF and force the use of fallback, set `disable_nif` to `true` in the config:
+
+    config :ringbuffer, disable_nif: true
+
+Documentation is published at [https://hexdocs.pm/ringbuffer](https://hexdocs.pm/ringbuffer).
+
 
 ## License
 
